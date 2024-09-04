@@ -7,9 +7,9 @@ const Page: React.FC = () => {
 
 
     return (
-        <>
+        <div className="mt-[100px]">
             <LoginForm />
-        </>
+        </div>
     );
 };
 

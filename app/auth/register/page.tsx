@@ -5,7 +5,7 @@ const Page = () => {
 
 
     return (
-        <div>
+        <div className="mt-[100px]">
     <SignupFormDemo/>
 
         </div>
