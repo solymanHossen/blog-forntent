@@ -6,6 +6,7 @@ import Link from "next/link";
 import jwt_decode from "jsonwebtoken";
 import {usePathname, useRouter} from 'next/navigation';
 import Cookies from "js-cookie";
+import {AnimatedModal} from "@/components/AnimatedModal";
 
 export function NavBar() {
     const [username, setUsername] = useState<string | null>(null);
@@ -70,6 +71,7 @@ function Navbar({className, username, logOut}: { className?: string; username: s
                     <Link href={'/blog/popular-blog'}
                           className={getLinkClasses("/blog/popular-blog")}>Popular
                         Blog</Link>
+                    <AnimatedModal triggerContent={'Created Post'}/>
                 </div>
                 {username ? (
                     <div className="avatar flex items-center gap-4">

@@ -19,7 +19,6 @@ interface FormValues {
 export function SignupFormDemo() {
 const router = useRouter();
 const [loading, setLoading] = React.useState(false);
-    const notify = () => toast("Wow so easy !");
     return (
         <div
             className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">

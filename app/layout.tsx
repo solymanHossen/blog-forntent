@@ -18,9 +18,9 @@ export default function RootLayout({children,}: Readonly<{
         <html lang="en">
         <body className={`night bg-[#D3D9D4]`}>
         <NavBar/>
-        <>
+
             {children}
-        </>
+
         </body>
         </html>
     );

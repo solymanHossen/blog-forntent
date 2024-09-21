@@ -190,7 +190,7 @@ const Overlay = ({ className }: { className?: string }) => {
   );
 };
 
-const CloseIcon = () => {
+export const CloseIcon = () => {
   const { setOpen } = useModal();
   return (
     <button

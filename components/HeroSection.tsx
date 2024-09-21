@@ -22,7 +22,7 @@ export function HeroSection() {
                     </div>
                 </h3>
                 <Link href={"/blog"}>
-                    <HoverBorderGradientComponent/>
+                    <HoverBorderGradientComponent gradientContent={'View All Post'}/>
                 </Link>
             </div>
         </BackgroundBeamsWithCollision>

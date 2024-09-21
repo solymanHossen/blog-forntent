@@ -18,10 +18,12 @@ export const CardContainer = ({
                                   children,
                                   className,
                                   containerClassName,
+
                               }: {
     children?: React.ReactNode;
     className?: string;
     containerClassName?: string;
+
 }) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const [isMouseEntered, setIsMouseEntered] = useState(false);
@@ -55,6 +57,7 @@ export const CardContainer = ({
                 style={{
                     perspective: "1000px",
                 }}
+
             >
                 <div
                     ref={containerRef}
